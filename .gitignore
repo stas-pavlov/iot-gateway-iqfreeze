@@ -3,3 +3,27 @@
 ################################################################################
 
 /.vs
+/code/CreateDeviceIdentity/.vs/CreateDeviceIdentity/v15
+/code/CreateDeviceIdentity/CreateDeviceIdentity/bin/Debug
+/code/CreateDeviceIdentity/CreateDeviceIdentity/obj
+/code/CreateDeviceIdentity/packages
+/code/IoTIngress/.vs/IoTIngressSrvice/v15
+/code/IoTIngress/AzureCloudService1/obj
+/code/IoTIngress/AzureCloudService1/Profiles
+/code/IoTIngress/AzureCloudService1/csx
+/code/IoTIngress/AzureCloudService1/bin
+/code/IoTIngress/AzureCloudService1/obj
+/code/IoTIngress/IoTIngress/bin
+/code/IoTIngress/IoTIngress/obj
+/code/IoTIngress/packages
+/code/SimulatedDevice/.vs/SimulatedDevice/v15
+/code/SimulatedDevice/packages
+/code/SimulatedDevice/SimulatedDevice/bin/Debug
+/code/SimulatedDevice/SimulatedDevice/obj
+/code/CreateDeviceIdentity/CreateDeviceIdentity/bin/Debug/CreateDeviceIdentity.exe
+/code/CreateDeviceIdentity/CreateDeviceIdentity/bin/Debug
+/code/CreateDeviceIdentity/.vs/CreateDeviceIdentity/v15/.suo
+/code/CreateDeviceIdentity/.vs/CreateDeviceIdentity/v15/.suo
+/code/CreateDeviceIdentity/.vs/CreateDeviceIdentity/v15
+/code/IoTIngress/AzureCloudService1/ecf/IoTIngressContent
+/code/IoTIngress/AzureCloudService1/IoTIngressContent

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="AzureCloudService1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
+  <WorkerRole name="IoTIngress" vmsize="Standard_A1_v2">
+    <ConfigurationSettings>
+      <Setting name="AzureStorageConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="IoTIn" protocol="tcp" port="10100" localPort="10100" />
+    </Endpoints>
+    <LocalResources>
+      <LocalStorage name="DataBuffer" cleanOnRoleRecycle="false" sizeInMB="10" />
+    </LocalResources>
+    <Imports>
+      <Import moduleName="RemoteAccess" />
+      <Import moduleName="RemoteForwarder" />
+    </Imports>
+  </WorkerRole>
+</ServiceDefinition>
