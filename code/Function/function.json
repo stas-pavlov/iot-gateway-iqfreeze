@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessages",
+      "direction": "in",
+      "path": "iotingress",
+      "connection": "iotingressep",
+      "cardinality": "many"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "iQFreezData",
+      "connection": "iotingressfa81c7_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}
